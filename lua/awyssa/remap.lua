@@ -44,5 +44,7 @@ vim.keymap.set("n", "<C-h>", "<C-w>h")
 vim.keymap.set("n", "<C-l>", "<C-w>l")
 vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>")
 
+vim.keymap.set("n", "<C-z>", "<u>")
+
 -- Snippits
 vim.keymap.set("i", "<leader>clog", "console.log()")
